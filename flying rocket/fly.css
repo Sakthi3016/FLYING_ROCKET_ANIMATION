@@ -1,0 +1,25 @@
+body{
+	background-color: white;
+
+}
+
+img{
+
+	width: 100px;
+	position: absolute;
+	bottom: 30px;
+	
+	left: 50%;
+	animation: fly 5s ease-in;
+	animation-iteration-count: 2;
+
+}
+@keyframes fly{
+	0%{
+		transform: translate(-50%,0);
+	}
+
+	100%{
+		transform: translate(-50%,-100vh);
+	}
+}
